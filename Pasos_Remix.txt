@@ -1,0 +1,14 @@
+npx create-remix@latest --template remix-run/remix/templates/remix-javascript
+
+
+nota: esto es la version de javaScript porque si lo haces sin lo demas, te lo 
+genera sin templates y ademas es con TypeScript.
+
+
+NOTA 2:
+TE VA SALIR UN PINCHE ERROR DE HYDRATATION, que se debe a al DOM y es problema puro de React.
+
+instalate esto:
+npm i remix-utils y luego hace lo que se hizo en esta onda de root.jsx :)
+
+
